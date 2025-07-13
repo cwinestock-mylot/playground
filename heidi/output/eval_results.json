@@ -1,0 +1,111 @@
+[
+    {
+        "filename": "example1.json",
+        "is_doc_note": true,
+        "is_doc_note_reasoning": "The text provides a detailed account of the patient's history, presenting complaints, examination findings, and assessment. It includes symptoms that led to a diagnosis of moderate croup, fulfilling the requirement for a medical record. The length exceeds 100 words.",
+        "patient_weight": {
+            "correct": true,
+            "predicted": 14.2,
+            "truth": 14.2
+        },
+        "obligatory_strings": {
+            "correct": true,
+            "found": [
+                "Dexamethasone 0.15 mg/kg (total patient dose 2.13 mg)",
+                "laryngotracheobronchitis",
+                "prednisolone 1 mg/kg (total patient dose 14.2 mg)"
+            ],
+            "missing": []
+        },
+        "relevant_file_found": true,
+        "output_text": "The guidelines for treating moderate croup (laryngotracheobronchitis) were published online by the Royal Children's Hospital Melbourne. The source document is titled \"www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis\".\n\n### Investigations\nCroup is primarily a clinical diagnosis. Investigations such as respiratory swab or nasopharyngeal aspirate, X-rays, and blood tests are **not indicated** in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses.\n\n### Treatment\n- **Minimise distress** to avoid worsening symptoms; limit interventions that do not impact acute management.\n- Keep the child with caregivers to reduce distress.\n- Maintain a quiet environment with moderate lighting.\n- Allow children to adopt a position of comfort that minimizes airway obstruction.\n\n**Medications**\n- **Moderate:**  \n  - **Oral steroids:** Dexamethasone 0.15 mg/kg (total patient dose 2.13 mg) oral or prednisolone 1 mg/kg (total patient dose 14.2 mg) oral\n  - **Consider nebulised adrenaline** if persistent or worsening symptoms.\n\n### Disposition\n- Children can be discharged home once stridor-free at rest.\n- A period of **observation of 3 hours** is required after nebulised adrenaline to ensure no recurrence of symptoms.\n- Consider longer observation for children who:\n  - Present overnight\n  - Have limited access to medical care\n  - Present with stridor more than once during the same illness\n  - Have risk factors for severe croup.\n\n### Further Considerations &amp; Follow-up\nConsider consultation with the local pediatric team when:\n- Severe airway obstruction is present.\n- The child has risk factors or any doubt about the diagnosis.\n- The child is less than 6 months of age.\n- There is no improvement with nebulised adrenaline.\n\nConsider transfer when:\n- There is no improvement following nebulised adrenaline.\n- The child requires repeated doses of nebulised adrenaline.\n- The child needs care above the comfort level of the local hospital.\n\nAdditionally, below is an image included in the guidelines:\n![Croup diagram](https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png)."
+    },
+    {
+        "filename": "example2.json",
+        "is_doc_note": true,
+        "is_doc_note_reasoning": "The text provided outlines a patient's medical record, detailing the presenting illness, history, examination findings, diagnosis, and management plan. It includes a clear description of the symptoms, their onset, and associated factors, which is essential in a medical record. The length exceeds 100 words, fulfilling the requirement.",
+        "patient_weight": {
+            "correct": true,
+            "predicted": 12.1,
+            "truth": 12.1
+        },
+        "obligatory_strings": {
+            "correct": true,
+            "found": [
+                "Dexamethasone 0.15 mg/kg (total patient dose 1.815 mg)",
+                "laryngotracheobronchitis",
+                "prednisolone 1 mg/kg (total patient dose 12.1 mg)"
+            ],
+            "missing": []
+        },
+        "relevant_file_found": true,
+        "output_text": "The guidelines for treating moderate croup (laryngotracheobronchitis) were published online by the Royal Children's Hospital Melbourne. The full filename of the source document is `www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis`.\n\n### Guidelines for Moderate Croup (Laryngotracheobronchitis)\n\n#### Investigations\n- Croup is a clinical diagnosis. Investigations such as respiratory swab, nasopharyngeal aspirate, X-rays, and blood tests are **not** indicated in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses.\n\n#### Treatment\n- **Minimise distress** to avoid worsening symptoms. Limit interventions that do not impact acute management.\n- Keep the child with caregivers to reduce distress and maintain a quiet environment with moderate lighting.\n- Children will adopt a comfortable position to minimize airway obstruction; do not change this.\n\n#### Medication\n- **Moderate:**\n  - Oral steroids: Dexamethasone 0.15 mg/kg (total patient dose 1.815 mg) oral or prednisolone 1 mg/kg (total patient dose 12.1 mg) oral.\n  - Consider nebulised adrenaline if symptoms are persistent or worsening.\n\n#### Disposition\n- Children can be discharged home once stridor is free at rest.\n- A period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of symptoms.\n- Consider a longer period of observation for children who:\n  - Present overnight.\n  - Have limited access to medical care.\n  - Present with stridor more than once during the same illness.\n  - Have risk factors for severe croup.\n\n#### Consultations and Transfers\n- **Consult a local paediatric team when:**\n  - Severe airway obstruction is present.\n  - The child has risk factors or any doubt about diagnosis.\n  - The child is less than 6 months of age.\n  - There is no improvement with nebulised adrenaline.\n\n- **Consider transfer when:**\n  - There is no improvement following nebulised adrenaline.\n  - The child requires repeated doses of nebulised adrenaline.\n  - The child requires care above the level of comfort of the local hospital.\n\n![Croup diagram](https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png)."
+    },
+    {
+        "example3.json": {
+            "filename": "example3.json",
+            "is_doc_note": false,
+            "is_doc_note_reasoning": "The text is too brief, lacking a detailed history of the presenting illness, a diagnosis, and sufficient length to qualify as a comprehensive medical record. It only states the patient's weight and identifies them as underweight without any additional context or information."
+        }
+    },
+    {
+        "filename": "example4.json",
+        "is_doc_note": true,
+        "is_doc_note_reasoning": "The text includes a comprehensive history of the presenting illness regarding a paracetamol overdose, a clear diagnosis, and all necessary details necessary for a medical record. It exceeds 100 words and provides information on the patient's condition, examination findings, treatment plan, and follow-up actions.",
+        "patient_weight": {
+            "correct": true,
+            "predicted": 5.3,
+            "truth": 5.3
+        },
+        "obligatory_strings": {
+            "correct": false,
+            "found": [],
+            "missing": [
+                "paracetamol poisoning"
+            ]
+        },
+        "relevant_file_found": true,
+        "output_text": "The guidelines for treating the diagnosis of Paracetamol (acetaminophen) overdose – intentional, potentially toxic dose were published online by the Royal Children's Hospital Melbourne. The full filename of the source document is `www.rch.org.au/clinicalguide/guideline_index/Paracetamol_poisoning`.\n\n### Guidelines Summary\n\n**Investigations:**\n- Serum paracetamol concentration should be measured at 2-4 hours post-ingestion in well children &lt;6 years suspected of ingesting &gt;200 mg/kg.\n  - If paracetamol concentration &lt;150 mg/L (1000 micromol/L): acetylcysteine is not required.\n  - If paracetamol concentration ≥150 mg/L: repeat concentration again at 4 hours post-ingestion.\n  - For those presenting &gt;4 hours post ingestion or ≥6 years of age, treat per the acute ingestion management flowchart.\n\n**Acute Management:**\n- Decontamination:\n  - Activated charcoal has a very limited role in treatment.\n  - It may be offered up to 2 hours post-ingestion if dose &gt;200 mg/kg or &gt;10 g.\n\n- **Acetylcysteine Administration:**\n  - Commence if:\n    - ALT &gt;50 U/L OR\n    - Serum paracetamol concentration &gt;20 mg/L (132 micromol/L).\n  - Consult with Poisons Information Centre or a clinical toxicologist.\n  \n**Acetylcysteine Infusion Instructions:**\n- Total dose: 300 mg/kg.\n  1. Acetylcysteine 200 mg/kg (total patient dose 1060.0 mg) over 4 hours in crystalloid solution 7 mL/kg (up to 500 mL) intravenously.\n  2. Acetylcysteine 100 mg/kg (total patient dose 530.0 mg) over the next 16 hours in crystalloid solution 14 mL/kg (up to 1000 mL) intravenously.\n  - For massive paracetamol exposures, double the second dose if paracetamol concentration is &gt;2 times the nomogram.\n\n**Ongoing Care and Management:**\n- Ingestions involving longer-acting forms of paracetamol (modified release) should be discussed with Poisons Information Centre or a clinical toxicologist.\n\n### Further Considerations:\n- Monitor for side effects such as gastrointestinal upset (nausea, vomiting).\n- Follow-up should include repeat monitoring of liver function and paracetamol concentration if clinically indicated.\n\nThis comprehensive summary includes essential details from the guidelines regarding the management of Paracetamol overdose, focusing on investigations, treatment protocols, and follow-up considerations."
+    },
+    {
+        "filename": "example5.json",
+        "is_doc_note": true,
+        "is_doc_note_reasoning": "The provided text is a comprehensive medical record regarding a patient's current illness. It includes a well-defined history of the presenting illness with detailed symptoms, a diagnosis of nail psoriasis, and is over 100 words long. The record covers patient demographics, presenting complaints, history, examination findings, diagnosis, and a treatment plan, which are all characteristic components of a medical document authored by a healthcare provider.",
+        "patient_weight": {
+            "correct": true,
+            "predicted": 80.0,
+            "truth": 80
+        },
+        "obligatory_strings": {
+            "correct": false,
+            "found": [],
+            "missing": [
+                "Clobetasol propionate 0.05%",
+                "Nail Psoriasis"
+            ]
+        },
+        "relevant_file_found": false,
+        "output_text": null
+    },
+    {
+        "filename": "example6.json",
+        "is_doc_note": true,
+        "is_doc_note_reasoning": "The text contains a clear history of the presenting illness, details of symptoms, an examination, a diagnosis of moderate croup, and includes a plan for treatment, all while being over 100 words long.",
+        "patient_weight": {
+            "correct": true,
+            "predicted": 0.0,
+            "truth": 0.0
+        },
+        "obligatory_strings": {
+            "correct": true,
+            "found": [
+                "Dexamethasone 0.15 mg/kg oral",
+                "laryngotracheobronchitis",
+                "prednisolone 1 mg/kg oral"
+            ],
+            "missing": []
+        },
+        "relevant_file_found": true,
+        "output_text": "The guidelines for treating moderate croup (laryngotracheobronchitis), likely viral in origin, were published online by the Royal Children's Hospital Melbourne. The full filename of the source document is `www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis`.\n\n### Management\n\n#### Investigations\n- Croup is a clinical diagnosis. Investigations such as respiratory swab or nasopharyngeal aspirate, X-rays, and blood tests are **not indicated** in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses.\n\n#### Treatment\n1. **Minimise distress** to avoid worsening symptoms, minimise interventions including examination and investigation that are not going to impact acute management.\n2. Keep child with carers to reduce distress.\n3. Try to keep the environment quiet, moderate lighting.\n4. Children will adopt a position of comfort that minimises airway obstruction; do not change this.\n\n5. **Medication**\n   - **Moderate:**\n     - Oral steroids: Dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral.\n     - Consider nebulised adrenaline if persistent or worsening symptoms.\n\n#### Disposition\n- Children can be discharged home once stridor free at rest.\n- A period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of symptoms.\n- Consider a longer period of observation for children who:\n  - Present overnight\n  - Have limited access to medical care\n  - Present with stridor more than once during the same illness\n  - Have risk factors for severe croup.\n\n### Further Considerations\n- **Consultation with local pediatric team when:**\n  - Severe airway obstruction present.\n  - Child has risk factors or any doubt about diagnosis.\n  - Child less than 6 months of age.\n  - No improvement with nebulised adrenaline.\n\n- **Transfer considerations:**\n  - No improvement following nebulised adrenaline.\n  - Child requiring repeated doses of nebulised adrenaline.\n  - Child requiring care above the level of comfort of the local hospital.\n\n![Croup diagram](https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png)."
+    }
+]

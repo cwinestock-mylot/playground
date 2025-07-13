@@ -1,0 +1,51 @@
+Patient Name: Jane Doe
+Age: 54 years
+Gender: Male
+Weight: 80 kg
+Date of Consultation: 10th October 2024
+
+# Presenting Complaint
+The patient presents with progressive changes to the fingernails and toenails, including pitting, discoloration, thickening, and separation of the nail plate from the nail bed (onycholysis). These symptoms have been present for several months and are associated with mild tenderness but no systemic symptoms.
+
+# History
+Duration of symptoms: Approximately 8 months
+Past Medical History: No previous diagnosis of psoriasis. No history of psoriatic arthritis or other autoimmune conditions.
+Family History: Mother has psoriasis.
+Medications: No current regular medications.
+Allergies: No known drug allergies
+Social History: Non-smoker, occasional alcohol use, works as an accountant, no recent travel or trauma.
+
+# Examination
+Fingernails: Multiple fingernails show features of nail dystrophy including pitting, longitudinal ridging, onycholysis, and subungual hyperkeratosis.
+Toenails: Thickening and discoloration noted, particularly in the great toenails.
+No visible skin plaques or evidence of psoriatic plaques on the scalp, elbows, or knees.
+No signs of dactylitis, enthesitis, or joint swelling suggestive of psoriatic arthritis.
+Vitals: Stable. No signs of systemic illness.
+
+# Diagnosis
+*Nail Psoriasis*
+
+Based on characteristic nail changes and a positive family history.
+No current evidence of cutaneous or articular involvement.
+
+# Treatment Plan
+
+1. Topical therapy:
+Clobetasol propionate 0.05% solution under occlusion daily to affected nails for 6–12 weeks.
+Consider vitamin D analog (calcipotriol) as adjunct or maintenance therapy.
+
+2. Nail care advice:
+Keep nails trimmed and clean.
+Avoid trauma to nails (e.g., from excessive manicuring).
+Avoid prolonged water exposure and irritants.
+
+3. Follow-up:
+Review in 8–12 weeks to assess treatment response.
+Monitor for potential development of psoriatic skin lesions or joint symptoms.
+
+4. Referral:
+Consider dermatology referral if poor response to topical treatment or for consideration of systemic or intralesional therapy.
+
+5. Patient education:
+Provided information about nail psoriasis, its chronic course, and treatment expectations.
+Discussed importance of adherence and regular monitoring.

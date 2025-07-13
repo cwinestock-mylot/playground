@@ -1,0 +1,52 @@
+Patient Summary
+Name: Joe Blogs
+Age: 12 years
+Date of Presentation: 12th July 2025
+Seen by: Dr John Smith
+Patient weight: 10kg
+
+Presenting Complaint
+The patient presented to the Emergency Department with a history of intentional ingestion of a large quantity of paracetamol approximately 4 hours prior to arrival.
+
+History
+Time of ingestion: Approximately 4 hours prior to presentation
+Amount ingested: Estimated [e.g., 20 x 500mg tablets = 10g total]
+Reason for ingestion: Low mood and recent interpersonal stressors (per patient and caregiver report)
+Past medical history: No known chronic medical conditions
+Medications: No regular medications
+Allergies: No known drug allergies
+Psychosocial history: No previous mental health diagnoses or suicide attempts. Reported recent issues at school and home.
+
+Examination
+Vital signs:
+Temperature: 36.8°C
+Heart rate: 92 bpm
+Blood pressure: 110/70 mmHg
+Respiratory rate: 18/min
+O₂ saturation: 99% on room air
+General appearance: Alert, cooperative, mildly anxious
+Abdominal exam: Mild right upper quadrant tenderness; no guarding or rebound
+Neurological exam: Normal
+Other systems: Unremarkable
+Diagnosis
+Paracetamol (acetaminophen) overdose – intentional, potentially toxic dose.
+
+Treatment Plan
+
+Investigations ordered:
+Serum paracetamol level (at 4-hour post-ingestion mark)
+LFTs, U&Es, INR, glucose
+Management initiated:
+N-acetylcysteine (NAC) infusion commenced as per toxicology protocol
+Cardiac monitoring and 4-hourly vital signs
+
+Monitoring:
+Ongoing assessment of liver function, coagulation profile, and mental status
+Psychiatric review:
+Referral made to child and adolescent mental health service (CAMHS) for assessment and support
+Supportive care:
+IV fluids as needed
+Anti-emetic for nausea (ondansetron PRN)
+
+Plan:
+Continue NAC infusion as per protocol and reassess labs. Maintain supportive care. Admit for 24–48 hours of observation and mental health review. Coordinate discharge planning with CAMHS input and family meeting.

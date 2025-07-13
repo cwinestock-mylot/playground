@@ -1,0 +1,11 @@
+{
+		"comment": "Invalid doctor's note. Should be rejected by prototype.",
+    "doc_note": "The patient weighs 2 kg and is underweight",
+    "obligatory_strings": [
+        "laryngotracheobronchitis",
+        "Dexamethasone 0.15 mg/kg (total patient dose 3.0 mg)",
+        "prednisolone 1 mg/kg (total patient dose 17.0 mg)"
+    ],
+    "patients_weight": 14.2,
+    "relevant_file": null
+}

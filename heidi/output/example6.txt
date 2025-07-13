@@ -1,0 +1,40 @@
+The guidelines for treating moderate croup (laryngotracheobronchitis), likely viral in origin, were published online by the Royal Children's Hospital Melbourne. The full filename of the source document is `www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis`.
+
+### Management
+
+#### Investigations
+- Croup is a clinical diagnosis. Investigations such as respiratory swab or nasopharyngeal aspirate, X-rays, and blood tests are **not indicated** in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses.
+
+#### Treatment
+1. **Minimise distress** to avoid worsening symptoms, minimise interventions including examination and investigation that are not going to impact acute management.
+2. Keep child with carers to reduce distress.
+3. Try to keep the environment quiet, moderate lighting.
+4. Children will adopt a position of comfort that minimises airway obstruction; do not change this.
+
+5. **Medication**
+   - **Moderate:**
+     - Oral steroids: Dexamethasone 0.15 mg/kg oral or prednisolone 1 mg/kg oral.
+     - Consider nebulised adrenaline if persistent or worsening symptoms.
+
+#### Disposition
+- Children can be discharged home once stridor free at rest.
+- A period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of symptoms.
+- Consider a longer period of observation for children who:
+  - Present overnight
+  - Have limited access to medical care
+  - Present with stridor more than once during the same illness
+  - Have risk factors for severe croup.
+
+### Further Considerations
+- **Consultation with local pediatric team when:**
+  - Severe airway obstruction present.
+  - Child has risk factors or any doubt about diagnosis.
+  - Child less than 6 months of age.
+  - No improvement with nebulised adrenaline.
+
+- **Transfer considerations:**
+  - No improvement following nebulised adrenaline.
+  - Child requiring repeated doses of nebulised adrenaline.
+  - Child requiring care above the level of comfort of the local hospital.
+
+![Croup diagram](https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png).

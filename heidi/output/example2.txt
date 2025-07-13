@@ -1,0 +1,39 @@
+The guidelines for treating moderate croup (laryngotracheobronchitis) were published online by the Royal Children's Hospital Melbourne. The full filename of the source document is `www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis`.
+
+### Guidelines for Moderate Croup (Laryngotracheobronchitis)
+
+#### Investigations
+- Croup is a clinical diagnosis. Investigations such as respiratory swab, nasopharyngeal aspirate, X-rays, and blood tests are **not** indicated in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses.
+
+#### Treatment
+- **Minimise distress** to avoid worsening symptoms. Limit interventions that do not impact acute management.
+- Keep the child with caregivers to reduce distress and maintain a quiet environment with moderate lighting.
+- Children will adopt a comfortable position to minimize airway obstruction; do not change this.
+
+#### Medication
+- **Moderate:**
+  - Oral steroids: Dexamethasone 0.15 mg/kg (total patient dose 1.815 mg) oral or prednisolone 1 mg/kg (total patient dose 12.1 mg) oral.
+  - Consider nebulised adrenaline if symptoms are persistent or worsening.
+
+#### Disposition
+- Children can be discharged home once stridor is free at rest.
+- A period of observation of 3 hours is required after nebulised adrenaline to ensure no recurrence of symptoms.
+- Consider a longer period of observation for children who:
+  - Present overnight.
+  - Have limited access to medical care.
+  - Present with stridor more than once during the same illness.
+  - Have risk factors for severe croup.
+
+#### Consultations and Transfers
+- **Consult a local paediatric team when:**
+  - Severe airway obstruction is present.
+  - The child has risk factors or any doubt about diagnosis.
+  - The child is less than 6 months of age.
+  - There is no improvement with nebulised adrenaline.
+
+- **Consider transfer when:**
+  - There is no improvement following nebulised adrenaline.
+  - The child requires repeated doses of nebulised adrenaline.
+  - The child requires care above the level of comfort of the local hospital.
+
+![Croup diagram](https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png).

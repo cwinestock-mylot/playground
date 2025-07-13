@@ -1,0 +1,23 @@
+The text enclosed in triple quotation marks below is a medical treatment plan with a doctor as the target audience. The plan contains medication dosages, e.g. "iseotretinoin 10mg per kg".
+Reproduce the text verbatim, however after all medication dosages in the text which are determined by body weight, e.g. dose contains "per kg", add a reference in square brackets in ascending order, e.g. [1]. At the end of your response, generate a string in the following format as it relates to the referenced medication dose:
+{"reference"=[integer], "dose":[drug dose per kg as float], "min": [minimum absolute dose as float], "max": [maximum absolute dose as float], "units": [string with units]}. 
+If no minimum absolute dose or maximum absolute dose are given, write the value null.
+
+Example 1: 
+original: "Dexamethasone 0.6 mg/kg (max 12 mg) [1] PO/IM/IV"
+result: "Dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV [1]"
+
+At end of result
+{reference=1, "dose"=0.6, "min": null, "max": 12, units="mg/kg"}
+
+Example 2: 
+original: "prednisolone 1 mg/kg oral"
+result: "prednisolone 1 mg/kg [2] oral"
+
+At end of result
+{reference=2, "dose"=1.0, "min": null, "max": null, units="mg/kg"}
+
+
+Example 3: 
+original: "paracetamol 500mg oral"
+result: "paracetamol 500mg oral". No reference number is added as the dosage is not weight-dependent.

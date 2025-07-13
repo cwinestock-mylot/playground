@@ -1,0 +1,11 @@
+{
+		"comment": "Same as given example, however patient's weight has been deleted. Contains weight-based dosages. Diagnosis present in RCH guidelines.",
+    "doc_note": "Patient: Jack T.\nDOB: 12/03/2022\nAge: 3 years\n\nPresenting complaint:\nJack presented with a 2-day history of barky cough, hoarse voice, and low-grade fever. Symptoms worsened overnight, with increased work of breathing and stridor noted at rest this morning. No history of choking, foreign body aspiration, or recent travel. No known sick contacts outside the household. \n\nHistory:\n- Onset of URTI symptoms 2 days ago, including rhinorrhoea and dry cough\n- Barking cough began yesterday evening, hoarseness and intermittent inspiratory stridor overnight\n- Mild fever (up to 38.4°C) controlled with paracetamol\n- No cyanosis or apnoea reported\n- Fully vaccinated and developmentally appropriate for age\n- No history of asthma or other chronic respiratory illness\n- No previous episodes of croup\n- No drug allergies\n\nExamination:\n- Alert, mildly distressed, sitting upright with audible inspiratory stridor at rest\n- Barky cough noted during assessment\n- Mild suprasternal and intercostal recession\n- RR 32, HR 124, SpO2 97% on room air, T 37.9°C\n- Chest: clear air entry bilaterally, no wheeze or crackles\n- ENT: mild erythema of oropharynx, no tonsillar exudate\n- CVS: normal S1/S2, no murmurs\n- Neurological: alert, interactive, normal tone and reflexes\n\nAssessment:\nJack presents with classic features of moderate croup (laryngotracheobronchitis), likely viral in origin. No signs of severe respiratory distress or impending airway obstruction. No signs suggestive of bacterial tracheitis or other differentials (e.g. foreign body, epiglottitis).\n\nPlan:\n- Administer corticosteroids\n- Plan as per local guidelines for croup\n",
+    "obligatory_strings": [
+        "laryngotracheobronchitis",
+        "Dexamethasone 0.15 mg/kg oral",
+        "prednisolone 1 mg/kg oral"
+    ],
+    "patients_weight": 0.0,
+    "relevant_file": "www.rch.org.au⧸clinicalguide⧸guideline_index⧸croup_laryngotracheobronchitis.html"
+}

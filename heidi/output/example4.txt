@@ -1,0 +1,35 @@
+The guidelines for treating the diagnosis of Paracetamol (acetaminophen) overdose – intentional, potentially toxic dose were published online by the Royal Children's Hospital Melbourne. The full filename of the source document is `www.rch.org.au/clinicalguide/guideline_index/Paracetamol_poisoning`.
+
+### Guidelines Summary
+
+**Investigations:**
+- Serum paracetamol concentration should be measured at 2-4 hours post-ingestion in well children &lt;6 years suspected of ingesting &gt;200 mg/kg.
+  - If paracetamol concentration &lt;150 mg/L (1000 micromol/L): acetylcysteine is not required.
+  - If paracetamol concentration ≥150 mg/L: repeat concentration again at 4 hours post-ingestion.
+  - For those presenting &gt;4 hours post ingestion or ≥6 years of age, treat per the acute ingestion management flowchart.
+
+**Acute Management:**
+- Decontamination:
+  - Activated charcoal has a very limited role in treatment.
+  - It may be offered up to 2 hours post-ingestion if dose &gt;200 mg/kg or &gt;10 g.
+
+- **Acetylcysteine Administration:**
+  - Commence if:
+    - ALT &gt;50 U/L OR
+    - Serum paracetamol concentration &gt;20 mg/L (132 micromol/L).
+  - Consult with Poisons Information Centre or a clinical toxicologist.
+  
+**Acetylcysteine Infusion Instructions:**
+- Total dose: 300 mg/kg.
+  1. Acetylcysteine 200 mg/kg (total patient dose 1060.0 mg) over 4 hours in crystalloid solution 7 mL/kg (up to 500 mL) intravenously.
+  2. Acetylcysteine 100 mg/kg (total patient dose 530.0 mg) over the next 16 hours in crystalloid solution 14 mL/kg (up to 1000 mL) intravenously.
+  - For massive paracetamol exposures, double the second dose if paracetamol concentration is &gt;2 times the nomogram.
+
+**Ongoing Care and Management:**
+- Ingestions involving longer-acting forms of paracetamol (modified release) should be discussed with Poisons Information Centre or a clinical toxicologist.
+
+### Further Considerations:
+- Monitor for side effects such as gastrointestinal upset (nausea, vomiting).
+- Follow-up should include repeat monitoring of liver function and paracetamol concentration if clinically indicated.
+
+This comprehensive summary includes essential details from the guidelines regarding the management of Paracetamol overdose, focusing on investigations, treatment protocols, and follow-up considerations.

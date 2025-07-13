@@ -1,0 +1,39 @@
+The guidelines for treating moderate croup (laryngotracheobronchitis) were published online by the Royal Children's Hospital Melbourne. The source document is titled "www.rch.org.au/clinicalguide/guideline_index/croup_laryngotracheobronchitis".
+
+### Investigations
+Croup is primarily a clinical diagnosis. Investigations such as respiratory swab or nasopharyngeal aspirate, X-rays, and blood tests are **not indicated** in typical presentations. Consider appropriate investigations if there is concern for differential diagnoses.
+
+### Treatment
+- **Minimise distress** to avoid worsening symptoms; limit interventions that do not impact acute management.
+- Keep the child with caregivers to reduce distress.
+- Maintain a quiet environment with moderate lighting.
+- Allow children to adopt a position of comfort that minimizes airway obstruction.
+
+**Medications**
+- **Moderate:**  
+  - **Oral steroids:** Dexamethasone 0.15 mg/kg (total patient dose 2.13 mg) oral or prednisolone 1 mg/kg (total patient dose 14.2 mg) oral
+  - **Consider nebulised adrenaline** if persistent or worsening symptoms.
+
+### Disposition
+- Children can be discharged home once stridor-free at rest.
+- A period of **observation of 3 hours** is required after nebulised adrenaline to ensure no recurrence of symptoms.
+- Consider longer observation for children who:
+  - Present overnight
+  - Have limited access to medical care
+  - Present with stridor more than once during the same illness
+  - Have risk factors for severe croup.
+
+### Further Considerations &amp; Follow-up
+Consider consultation with the local pediatric team when:
+- Severe airway obstruction is present.
+- The child has risk factors or any doubt about the diagnosis.
+- The child is less than 6 months of age.
+- There is no improvement with nebulised adrenaline.
+
+Consider transfer when:
+- There is no improvement following nebulised adrenaline.
+- The child requires repeated doses of nebulised adrenaline.
+- The child needs care above the comfort level of the local hospital.
+
+Additionally, below is an image included in the guidelines:
+![Croup diagram](https://www.rch.org.au/uploadedImages/Main/Content/clinicalguide/guideline_index/Croup-diagram.png).

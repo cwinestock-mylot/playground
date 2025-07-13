@@ -1,0 +1,20 @@
+Find the guidelines for treating the diagnosis {{diagnosis}}. The guidelines should include any investigations, treatment, medications, disposition and further considerations & follow-up relevant to the specific diagnosis {{diagnosis}}.  If the document contains any tables, images or links related to the treatment, include them in your response. In your answer, provide as much detail verbatim as is written in the source document without adding information not contained in it. When introducing the guideline at the start of your response, mention that they were published online by the Royal Children's Hospital Melbourne and include the full filename of the source document. The full filename resembles  URL. Replace all occurrences of the ⧸ characters in the full filename with / and remove the suffix ".html"
+
+## Handling of dosages per kilograms
+If any dosages in the text use units per kilogram, e.g. 10mg/kg, then calculate the absolute dosage based on the patient's weight of {{patients_weight}}. To calculate this formula, create a python statement where you include the dosage as a float * patients weight. See examples below. 
+
+Example 1:
+dosage in text: Dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV
+patients weight: 12.1kg
+python eval statement: 0.6 * 12.1
+tool return value: 7.26
+
+Example 2:
+dosage in text: adrenaline 5 mL per kilogram
+patients weight: 50 kg
+python eval statement: 5 * 50
+tool return value: 250
+
+You should invoke the python eval tool to perform the calculation.
+
+In your answer, provide as much detail verbatim as is written in the source document as is relevant to the diagnosis {{diagnosis}}. If a subtype of the disease is specified, e.g. severe, then do not list details about other subtypes, e.g. mild or moderate.

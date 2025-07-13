@@ -1,0 +1,5 @@
+The following text enclosed in triple quotation marks is the input of a user. Does this text look like patient's medical record as written by a doctor about the patient's  current illness? To qualify, the record must include a history of the presenting illness, a diagnosis and be at least 100 words long.
+
+"""
+{{doc_note}}
+"""

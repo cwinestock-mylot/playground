@@ -1,0 +1,10 @@
+Enclosed in triple quotation marks below is a doctors consultation notes regarding a patient. Carry out the following steps:
+
+step 1: search the notes for the patient's weight in kilograms and insert the value as a floating point in the field called 'patients_weight'. If the weight is not listed, output the float 0.0.
+step 2: Extract the diagnosis from the note using the same exact wording as appears in the note. If more than one diagnosis is listed, only output the one which the doctor thinks is most probable. Include in your output the name of the diagnosis, the severity and any further characterization of the diagnosis, if any of these are listed. If no diagnosis or disease name is found in the text, instead use a summary of the key positive findings and abnormalities mentioned under examination and the medical history.
+step 3: Include any management plan mentioned in the notes in the field 'management plan'. If none is included, write "not found"
+
+"""
+{{doc_note}}
+"""
+ 

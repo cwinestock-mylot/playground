@@ -1,0 +1,26 @@
+Find the guidelines for treating the diagnosis {{diagnosis}}. The guidelines should include any investigations, treatment, medications, disposition and further considerations & follow-up relevant to the specific diagnosis {{diagnosis}}.  If the document contains any tables, images or links related to the treatment, include them in your response. In your answer, provide as much detail verbatim as is written in the source document without adding information not contained in it. When introducing the guideline at the start of your response, mention that they were published online by the Royal Children's Hospital Melbourne and include the full filename of the source document. The full filename resembles  URL. Replace all occurrences of the ⧸ characters in the full filename with / and remove the suffix ".html"
+
+## Annotating medication dosages
+Instructions: If a medication dosage is found in the generated text, surround the dosages using the start and end XML tag <dose>...</dose>.
+Inside the <dose> tag, enclose the unit, if present using <unit>...</unit>. Enclose the value using <value>...</value>.
+Finally, if the <unit> inside any of the <dose> is determined by the weight of the patient, e.g. it contains "/kg", then add the attribute 'dependency="weight"' to the <dose> tag.
+
+Example 1:
+input: Dexamethasone 0.6 mg/kg (max 12 mg) PO/IM/IV
+result: <dose dependency="weight"><value>0.6</value> <unit>mg/kg</unit></dose> (max 12 mg) PO/IM/IV
+
+Example 2:
+input: adrenaline 7 mL/kg
+result: adrenaline <dose dependency="weight"><value>7</value> <unit>mL/kg</unit></dose>
+
+Example 3:
+input: adrenaline 10 mL
+result: adrenaline <dose><value>5</value> <unit>mL</unit></dose>
+
+Example 4:
+input: acetylcysteine is 300 mg/kg
+result: acetylcysteine is <dose dependency="weight"><value>300</value> <unit>mg/kg</unit></dose>
+
+Convert all doses found in the text using the above markup.
+
+In your answer, provide as much detail verbatim as is written in the source document as is relevant to the diagnosis {{diagnosis}}. If a subtype of the disease is specified, e.g. severe, then do not list details about other subtypes, e.g. mild or moderate.

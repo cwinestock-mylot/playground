@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heidi Demo</title>
+    <h1>Heidi Demo</h1>
+    <script>
+        function startProcess(event) {
+            event.preventDefault();
+            document.getElementById('logs').innerText = '';
+            const formData = new FormData(document.getElementById('inputForm'));
+            fetch('/run_process', {
+                method: 'POST',
+                body: formData
+            }).then(response => {
+                const reader = response.body.getReader();
+                let decoder = new TextDecoder();
+                function read() {
+                    reader.read().then(({done, value}) => {
+                        if (done) return;
+                        let chunk = decoder.decode(value);
+                        if (chunk.includes('__PROCESS_DONE__')) {
+                            // Optionally handle completion
+                        } else {
+                            document.getElementById('logs').innerText += chunk.replace(/^data:/gm, '');
+                        }
+                        read();
+                    });
+                }
+                read();
+            });
+        }
+    </script>
+    <style>
+        textarea {
+            width: 100%;
+	        box-sizing: border-box;
+	        overflow: auto;
+	        resize: vertical;
+	    }
+        pre {
+            background:#eee;
+            padding:1em;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <p>by Christopher Winestock, v1.0</p>
+    <p>Enter a patient note in the text box below and click the submit button.</p>
+    <form id="inputForm" onsubmit="startProcess(event)">
+	<textarea name="user_input" type="text" rows="15" ></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <pre id="logs"></pre>
+</body>
+</html>
+
